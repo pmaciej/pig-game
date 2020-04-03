@@ -41,6 +41,11 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
                 wasSix = true;
             }
 
+            else {
+
+                wasSix = false;
+            }
+
             document.querySelector('#current-' + activePlayer).textContent = roundScore;
         }
 
