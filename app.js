@@ -37,14 +37,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 
         //3. Update the round score IF the rolled number was NOT a 1
         
-        if (firstScore = true && dice === 6) {
-            //Add score
-            
-            roundScore = 0;
-            document.querySelector('#current-' + activePlayer).textContent = 'KURWA'; 
-        
-        
-        }
+     
         
         
         if (dice !== 1) {
@@ -62,7 +55,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
             }
         }
 
-       if (dice === 6 && firstScore = false)
+       if (firstScore = false && dice === 6)
            lastScore = true;
            }
             
