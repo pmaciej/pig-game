@@ -45,7 +45,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
             
             roundScore += dice;
             document.querySelector('#current-' + activePlayer).textContent = roundScore;
-           
+        }
             
         if (dice === 6) {
             firstScore = true;
@@ -57,7 +57,8 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 
        if (firstScore = false && dice === 6)
            lastScore = true;
-           }
+       
+           
             
         else {
         //Next player
