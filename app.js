@@ -23,7 +23,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
         diceDOM.src = 'dice-' + dice + '.png';
 
 
-// SZMATYY
+
 
         if (dice !== 1) {
 
