@@ -38,7 +38,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
         //3. Update the round score IF the rolled number was NOT a 1
         
      
-        
+       
         
         if (dice !== 1) {
             //Add score
@@ -46,6 +46,21 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
             roundScore += dice;
             document.querySelector('#current-' + activePlayer).textContent = roundScore;
         }
+            
+               
+       else {
+        //Next player
+        nextPlayer();
+    }    
+        
+      // od tego momentu moje zapiski :P  
+        
+        if (dice !== 1) {
+            //Add score
+            
+            roundScore += dice;
+            document.querySelector('#current-' + activePlayer).textContent = roundScore;
+           
             
         if (dice === 6) {
             firstScore = true;
@@ -55,17 +70,12 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
             }
         
 
-       
-           
+
+        }
+
             
-        else {
-        //Next player
-        nextPlayer();
-    }    
-
-
+            
         
-       
         
         
             /*    if (firstScore = true && dice === 6)
