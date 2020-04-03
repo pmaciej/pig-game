@@ -9,7 +9,7 @@ GAME RULES:
 
 */
 
-var scores, roundScore, activePlayer, gamePlaying, firstScore;
+var scores, roundScore, activePlayer, gamePlaying, firstScore; lastScore;
 
 init();
 
@@ -60,12 +60,11 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
             else {
                 firstScore = false;
             }
-        
-
-
         }
 
-            
+       if (dice === 6 && firsScore = false;
+           lastScore = true;
+           }
             
         else {
         //Next player
