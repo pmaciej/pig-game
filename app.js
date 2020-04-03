@@ -62,7 +62,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
             }
         }
 
-       if (dice === 6 && firsScore = false)
+       if (dice === 6 && firstScore = false)
            lastScore = true;
            }
             
