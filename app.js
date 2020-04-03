@@ -22,6 +22,9 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
         diceDOM.style.display = 'block';
         diceDOM.src = 'dice-' + dice + '.png';
 
+
+// SZMATYYYYY
+
         if (dice !== 1) {
 
             if (dice === 6) {
